@@ -138,8 +138,8 @@ if(isset($age)){
     echo "no value";
 }*/
 //variable reference
-$a=5;
+/*$a=5;
 $b=&$a;
 $a=11;
 $a=55;
-echo $b;
+echo $b;*/
