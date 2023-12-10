@@ -122,17 +122,24 @@ echo $z;
 //implicit casting [automatic]
 //explicit settype (deprecated) / type casting (type)
 echo gettype($z);*/
-
+/*
 $name="ahmed";
 if(is_scalar($name)){
     echo gettype($name)." type";
 }else{
     echo "Not ". gettype($name). " Type";
-}
-$age=23;
-
+}*/
+/*$age=23;
+//to release variable from memory
+unset($age);
 if(isset($age)){
     echo "there is a value";
 }else{
     echo "no value";
-}
+}*/
+//variable reference
+$a=5;
+$b=&$a;
+$a=11;
+$a=55;
+echo $b;
